@@ -1,0 +1,193 @@
+:root {
+  font-family: Lucida Sans Unicode, sans-serif;
+  --white: #ffffff;
+  --background-color: #3499CC;
+  --background-blue: #2b81ac;
+  --second-family: "Weather Icons", sans-serif;
+}
+
+
+.container {
+  border: 25px solid var(--background-blue);
+  background-color: var(--background-color);
+  max-width: 1440px;
+  padding: 35px 108px;
+
+}
+h1 {
+  text-align: left;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 21px;
+  color: var(--white);
+}
+.logo{
+  margin-bottom: 35px;
+}
+.logo h1, .logo img {
+  display: inline-block;
+  vertical-align: middle;
+  
+
+}
+
+.logo img {
+  width: 35px;
+  height: 35px;
+}
+
+.weather li {
+  font-family: var(--font-family);
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  vertical-align: top;
+  padding-top: 26px;
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+
+.weather li .temp {
+  padding-top: 4px;
+  display: inline-block;
+  font-size: 22px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+
+.weather li img {
+  padding-top: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 57px;
+  height: 71px;
+}
+.weather {
+  background: var(--white);
+  list-style: none;
+  text-align: center;
+  padding: 4px;
+  font-size: 0;
+}
+
+li:hover, :not(:hover)>li {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  filter: saturate(1.5);
+}
+.lisbon {
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background: #3399CC;
+  font-size: 34px;
+  height: 147px;
+  width: calc(50% - 3px);
+  
+
+}
+
+.paris {
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background: #33CCCC;
+  font-size: 34px;
+  height: 147px;
+  width: calc(25% - 3px);
+}
+
+.belgrade {
+  display: inline-block;
+  background: #996699;
+  font-size: 34px;
+  height: 147px;
+  width: calc(25% - 3px);
+
+}
+
+.venice {
+  display: inline-block;
+  margin-right: 4px;
+  background: #ca5c5c;
+  font-size: 34px;
+  height: 147px;
+  width: calc(25% - 3px);
+}
+
+.tel-avive {
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background: #E2674A;
+  font-size: 34px;
+  height: 147px;
+  width: calc(25% - 3px);
+}
+
+.cair {
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background: #FFCC66;
+  font-size: 34px;
+  height: 147px;
+  width: calc(25% - 3px);
+}
+
+.new-york {
+  display: inline-block;
+  background: #99CC99;
+  font-size: 34px;
+  height: 147px;
+  width: calc(25% - 3px);
+}
+
+.new-dolhi {
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background: #669999;
+  font-size: 34px;
+  height: 147px;
+  width: calc(25% - 3px);
+}
+
+.san-francisco {
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background: #CC6699;
+  font-size: 34px;
+  height: 147px;
+  width: calc(50% - 3px);
+}
+
+.tokyo {
+  display: inline-block;
+  background: #339966;
+  font-size: 34px;
+  height: 147px;
+  width: calc(25% - 3px);
+}
+
+.sydney {
+  display: inline-block;
+  margin-right: 4px;
+  background: #666699;
+  font-size: 34px;
+  height: 147px;
+  width: 100%;
+}
+
+
+
+h2 {
+  margin-top: 35px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white);
+}
